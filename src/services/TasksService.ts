@@ -33,6 +33,7 @@ class TasksService {
     }
 
     getTasks.map(tasks => {
+      // @ts-ignore
       tasks.date_task = format(tasks.date_task, 'dd/MM/yyyy', {
         locale: pt,
       });
@@ -128,6 +129,7 @@ class TasksService {
     }
 
     findTask.map(tasks => {
+      // @ts-ignore
       tasks.date_task = format(tasks.date_task, 'dd/MM/yyyy', {
         locale: pt,
       });
