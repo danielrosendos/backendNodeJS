@@ -1,10 +1,10 @@
 {
   "type": "postgres",
-  "host": "localhost",
+  "host": "ec2-54-243-67-199.compute-1.amazonaws.com",
   "port": 5432,
-  "username": "admin",
-  "password": "admin",
-  "database": "vaibem_test",
+  "username": "moidphhdrtgmlc",
+  "password": "8c5504f1fd2bfac4e3f9fd22ea885ee2397ee84a0a0e039a05e0d2d242602d8c",
+  "database": "d1kamcnck1tlmr",
   "entities": [
     "./src/models/*.ts"
   ],
